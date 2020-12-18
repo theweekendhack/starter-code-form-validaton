@@ -3,26 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sum of Two numbers</title>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Basic Answer</title>
     <script defer src="js/app.js"></script>
 </head>
-<body>
-    
-        <form action="">
-               
-                <label for="firstNum">First Number</label>
-                <input type="text" id="firstNum"> <br><br>
+<body> 
+    <main>
+        <section>
+            <div class="container" >
 
+                <div class="form-container">
 
-                <label for="secondNum">Second Number</label>
-                <input type="text" name="" id="secondNum"> <br><br>
+                    <div>
+                        <h1>Sum of Two Numbers</h1>    
+                    </div>
+                    <form action="" method="POST" >
 
+                        <div class="form-control">    
+                            <label for="number1">Number </label>
+                            <input type="text" id="number1" name="number1">
+                            <div class="error-fields"></div>
+                        </div> 
+                
+                        <div class="form-control">    
+                            <label for="number2">Second Number </label>
+                            <input type="text" id="number2" name="nmber2">
+                            <div class="error-fields"></div>
+                        </div> 
+                                    
+                        <div class="form-control">
+                           <button  type="button" id="calculateButton">Add</button>       
+                       
+                        </div>
+                
+                    </form>
 
-                <button type="button">Calculate The Sum</button>
+                </div>
 
+            </div>
+        </section>
 
-        </form>
-
-
+    </main>  
 </body>
 </html>
